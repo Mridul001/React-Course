@@ -1,6 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import {Navbar, NavbarBrand} from 'reactstrap';
+import Menu from './components/MenuComponents';
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Navbar dark color="primary">
         <NavbarBrand href="/"> The Con Fusion App</NavbarBrand>
       </Navbar>
+      <Menu/>
     
        
     </div>
